@@ -185,4 +185,16 @@
     color: #0d1117;
     font-size: 1.1rem;
   }
+  .perfil {
+    text-align: center;
+    padding: 2rem;
+  }
   
+  .foto-perfil {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    object-fit: cover;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    margin-bottom: 1rem;
+  }
