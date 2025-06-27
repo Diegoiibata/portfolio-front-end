@@ -198,3 +198,55 @@
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
     margin-bottom: 1rem;
   }
+  @media (max-width: 600px) {
+    /* Ajusta o padding do body para telas pequenas */
+    body {
+      padding: 0 0.5rem;
+    }
+  
+    /* Centraliza e reduz o tamanho dos títulos */
+    header h1 {
+      font-size: 1.8rem;
+    }
+  
+    header p {
+      font-size: 1rem;
+    }
+  
+    nav ul {
+      flex-direction: column;
+      gap: 0.8rem;
+    }
+  
+    /* Ajusta a linha do tempo para ficar mais estreita */
+    .linha-do-tempo {
+      padding-left: 0.5rem;
+    }
+  
+    .evento {
+      padding-left: 0.5rem;
+    }
+  
+    /* Ajusta a foto do perfil para ficar menor */
+    .foto-perfil {
+      width: 120px;
+      height: 120px;
+      margin-bottom: 1rem;
+    }
+  
+    /* Ajusta os cards de projeto para ficarem em coluna única */
+    .projetos-container {
+      grid-template-columns: 1fr;
+      gap: 1.5rem;
+    }
+  
+    /* Ajusta o tamanho do texto dos cards para melhor leitura */
+    .card-projeto h3 {
+      font-size: 1.1rem;
+    }
+  
+    .card-projeto p {
+      font-size: 0.9rem;
+    }
+  }
+  
