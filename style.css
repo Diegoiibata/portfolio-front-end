@@ -249,4 +249,55 @@
       font-size: 0.9rem;
     }
   }
+  .linha-do-tempo {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 1rem;
+  }
+  
+  .evento {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    background-color: #f5f5f5;
+    border-radius: 12px;
+    padding: 1rem;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  
+  .evento .ano {
+    font-weight: bold;
+    font-size: 1.2rem;
+    color: #333;
+  }
+  
+  .evento p {
+    margin: 0.2rem 0 0;
+    color: #555;
+  }
+  .foto-evento {
+    width: 100px;
+    aspect-ratio: 1 / 1;          /* garante que altura e largura sejam sempre iguais */
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: center;
+    border: 3px solid #ccc;
+    background: white;
+    padding: 5px;
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  @media (max-width: 600px) {
+    .foto-evento {
+      width: 80px;
+    }
+  }
+  
+  
+  
+  
+  
+  
   

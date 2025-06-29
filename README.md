@@ -38,7 +38,6 @@ Sou Diego Ibata, tenho 34 anos, trabalho com logística desde os 18 e já atuei 
 
 ![Print do portfólio](img/captura.png)
 
-> Substitua por um print real da sua tela, salvo como `captura.png` na pasta `img`.
 
 ---
 
